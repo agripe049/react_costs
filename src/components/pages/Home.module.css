@@ -1,0 +1,29 @@
+.home_container {
+    width: 100%; /*Largura*/
+    display:flex; /*Sempre coloca display flex */
+    flex-direction: column; /*Para colocar um item embaixo do outro */
+    align-items: center; /*Centralizar os itens na vertical*/
+    justify-content: center; /*Centralizar os itens na horizontal*/
+    padding: 4em;
+}
+
+.home_container h1 {
+    font-size: 2.5em;
+    margin-bottom: .5em;
+}
+
+.home_container h1 span {
+    color: #ffbb33;
+    padding: 0 .2em;
+    background-color: #222;
+}
+
+.home_container p {
+    margin-bottom: 1.5em;
+    color: #7b7b7b; /* Favorito */
+}
+
+.home_container img {
+    width: 350px;
+    margin: 2em 0;
+}

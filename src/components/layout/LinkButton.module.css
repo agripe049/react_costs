@@ -1,0 +1,11 @@
+.bnt {
+    background-color: #222;
+    color: #fff;
+    padding: 0.5em 1em; /*0.5em na vertical, 1em na horizontal */
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.bnt:hover {
+    color: #ffbb33;
+}
