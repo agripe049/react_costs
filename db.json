@@ -12,53 +12,12 @@
       "services": []
     },
     {
-      "id": "fa76",
-      "name": "Montagem",
-      "budget": "7800",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 7400,
-      "services": [
-        {
-          "name": "Novo serviço",
-          "cost": "3500",
-          "description": "Novo",
-          "id": "4034ce8d-6752-4efc-a362-7a62623d6f98"
-        },
-        {
-          "name": "Novo serviço",
-          "cost": "3500",
-          "description": "Novo",
-          "id": "4034ce8d-6752-4efc-a362-7a62623d6f98"
-        },
-        {
-          "name": "Novo serviço",
-          "cost": "400",
-          "description": "Serviço de torno e solda em geral.",
-          "id": "97e77000-f09e-4af0-9f37-84c08d8a4a4f"
-        }
-      ]
-    },
-    {
       "id": "7afc",
-      "name": "Serviço de pintura",
+      "name": "bolo ",
       "budget": "4000",
       "category": {
         "id": "4",
         "name": "Planejamento"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "df3e",
-      "name": "teste 123",
-      "budget": "5000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
       },
       "cost": 0,
       "services": []
