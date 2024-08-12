@@ -25,7 +25,7 @@ function Projetos () {
     useEffect(() => {
         setTimeout(
             () => {
-                fetch(`${process.env.REACT_SERVER_API}projects`, {
+                fetch(`${process.env.REACT_APP_SERVER_API}projects`, {
                     method: 'GET',
                     headers: {
                         'Content-Type': 'application/json',
@@ -41,7 +41,7 @@ function Projetos () {
     }, [])
 
     function removeProjeto(id) {
-        fetch(`${process.env.REACT_SERVER_API}projects/${id}`, {
+        fetch(`${process.env.REACT_APP_SERVER_API}projects/${id}`, {
             method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json'

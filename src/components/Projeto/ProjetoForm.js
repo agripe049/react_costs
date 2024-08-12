@@ -10,7 +10,7 @@ function ProjetoForm({ handleSubmit, btnText, projectData }) {
     const [project, setProject] = useState(projectData || {})
 
     useEffect(() => {
-        fetch(`${process.env.REACT_SERVER_API}categories`, {
+        fetch(`${process.env.REACT_APP_SERVER_API}categories`, {
             method: "GET",
             headers: {
                 'Content-Type':'application/json',  

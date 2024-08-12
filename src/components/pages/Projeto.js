@@ -24,7 +24,7 @@ function Projeto () {
 
     useEffect(() => {
         setTimeout(() => {
-            fetch(`${process.env.REACT_SERVER_API}/projects/${id}`, {
+            fetch(`${process.env.REACT_APP_SERVER_API}/projects/${id}`, {
                 method: "GET",
                 headers: {
                     'Content-Type': 'Application/json',
@@ -47,7 +47,7 @@ function Projeto () {
             return false
         }
 
-        fetch(`${process.env.REACT_SERVER_API}/projects/${projeto.id}`, {
+        fetch(`${process.env.REACT_APP_SERVER_API}/projects/${projeto.id}`, {
             method: 'PATCH',
             headers: { 
              'Content-Type': 'application/json'
@@ -90,7 +90,7 @@ function Projeto () {
         projeto.cost = newCost
 
         //atualizar projeto
-        fetch(`${process.env.REACT_SERVER_API}/projects/${projeto.id}`,{
+        fetch(`${process.env.REACT_APP_SERVER_API}/projects/${projeto.id}`,{
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json',
@@ -115,7 +115,7 @@ function Projeto () {
         projetoUpdated.services = servicesUpdated
         projetoUpdated.cost = parseFloat(projetoUpdated.cost) - parseFloat(cost)
 
-        fetch(`${process.env.REACT_SERVER_API}/projects/${projetoUpdated.id}`, {
+        fetch(`${process.env.REACT_APP_SERVER_API}/projects/${projetoUpdated.id}`, {
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json'

@@ -12,7 +12,7 @@ function NovoProjeto () {
         project.cost = 0
         project.services = []
 
-        fetch(`${process.env.REACT_SERVER_API}/projects`,{
+        fetch(`${process.env.REACT_APP_SERVER_API}/projects`,{
             method: 'POST',
             headers: {
                 'Content-type': 'application/json',
